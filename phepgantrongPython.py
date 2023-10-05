@@ -1,3 +1,4 @@
+# Phép gán trong lập trình Python
 a = input("Nhập vào giá trị của a = ")
 a = float(a)
 b = input("Nhập vào giá trị của b = ")
@@ -12,11 +13,11 @@ b *= 2
 print(b)
 b /= 4
 print(b)
-c %= 3  # Chia lấy phần dư %
+c %= 3
 print(c)
-c //= 2  # Chia lấy phần nguyên //
+c //= 2
 print(c)
-a **= 2  # Lấy mũ **
+a **= 2
 print(a)
 
 a = float(input(" Nhập vào giá trị của a = "))
