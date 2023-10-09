@@ -5,7 +5,7 @@ print(Hello)
 print(Hello1)
 
 # Tạo list có dữ liệu
-colors = [
+Such_as = [
     "Thanh",
     "Tu",
     "28",
@@ -15,14 +15,14 @@ colors = [
     "I have a girlfriends. She is very beautifull and kute",
 ]
 # List có thể chứa nhiều kiểu dữ liệu khác nhau vừa có thể là số, chữ , ký tự...
-print(colors)
+print(Such_as)
 # List có thứ tự, vị trí các phần tử được đánh dấu bắt đầu từ 0, từ trái sang phải
 Name = ["Thanh Tú", "28/10/2003", "I love you", "Hoa Thị Thu Hiền", "3/02/2003"]
 print(Name)
 print(
     Name[2:4]
 )  # Kiểu dữ liệu được in ra màn hình là ở vị trí phần tử 2 và 3 tức (4-1)
-print(Name[:])
+print(Name[:])  # In toàn bộ dữ liệu ra màn hình
 print(Name[-1])  # In giá trị ngược lại
 
 # Thêm phần tử vào cuối list: Dùng lệnh "append"
@@ -35,7 +35,7 @@ Name.insert(
 )  # Chèn vào list, đầu tiên phải thêm vào vị trí cần khai báo tiếp đến là dữ liệu
 print(Name)
 
-# Số lượng phần tử có trong list: Dùng lệnh "len". Và tính số lượng phần tử thì đc bắt đầu từ 1
+# Số lượng phần tử có trong list: Dùng lệnh "len". Và khi tính số lượng phần tử thì đc bắt đầu từ 1
 print(len(Name))
 
 # Đếm số lượng phần tử thỏa điều kiện: Dùng lệnh "count"
