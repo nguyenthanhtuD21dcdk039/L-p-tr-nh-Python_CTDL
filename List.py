@@ -71,3 +71,5 @@ print(Name)
 # Xóa sạch hết trong List: Dùng lệnh "clear"
 Name.clear()
 print(Name)
+
+# Tính tổng: dùng lệnh "Sum"
